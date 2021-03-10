@@ -1,0 +1,222 @@
+
+.course {
+    text-align: center;
+    border: 1px solid white;
+    padding:10px;
+}
+
+.col_detail {
+    column-count: 4;
+    column-rule: 2px solid red;
+    column-gap: 50px;
+    padding:2px;
+    
+}
+
+
+
+section.manager {
+     max-height: 350px;
+     overflow: auto;
+}
+
+
+
+nav {
+    background-color: grey;
+    padding:5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    
+}
+
+
+nav ul li  {
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding :15px;
+}
+
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+aside
+{
+    border:1px solid yellow;
+    float:right;
+    width :18%;
+    
+   
+}
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li:hover { background-color : #8E8E8E;}
+
+header {
+          
+    background-image: url(../images/header_image.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    color:navajowhite;
+    border:1px solid blue;
+         
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey ;
+    
+    text-align: center;}
+   
+ footer ul li  {
+    list-style-type: none;
+    color :white;
+    display: inline;
+    padding :15px;
+     
+}  
+   
+
+
+body {
+    font-family: Verdana;
+    
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    text-align :center;
+    font-size :1.2em;
+}
+
+
+ #product  {
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+
+
+
+#active {
+   background-color: darkseagreen;
+}
+
+#content {
+            float: left; 
+            width: 80%;
+            border: 1px solid grey;    
+         }
+
+
+
+
+aside ul li {
+   
+    
+}
+
+
+
+p {
+    
+    text-align: justify;
+     padding :2px;
+}
+
+
+.showimages {
+    
+    float:left;
+    width: 30%;
+    border: 2px solid white;
+    margin:0 10px 0 10px;     /* top margin is 0
+                                 right margin is 10px
+                                 bottom margin is 0
+                                 left margin is 10px  https://www.w3schools.com/css/css_margin.asp*/
+
+}
+
+
+
+
+.backgroundImageC {
+    
+    background-image: url(../images/carrots.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.backgroundImageB {
+    background-image: url(../images/bacon.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.backgroundImageE {
+    background-image: url(../images/eggs.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+#aboutUs {
+    text-align: center;
+    
+        
+}
+
+#bigPic {
+    
+    width :100%;
+   
+       
+}
+
+
+.logo {
+    float: left; height: 60px; width:60px;
+}
+
+
+
+.videoContent {
+    float:right;
+    width:49%;
+    border :2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+
+.colour {
+    color:black;
+}
+
+.bottom {
+    clear: both;
+}
